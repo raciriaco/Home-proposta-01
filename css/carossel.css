@@ -1,17 +1,6 @@
 h6{
   font-size: 50px;
 }
-.container-carossel{
-  margin: 400px;
-}
-
-@media only screen and (max-width: 3200px) {
-  body {
-    padding: 0;
-    margin: 0px 10px 10px 10px;
-  }
-}
-
 
 @media only screen and (max-width: 1000px) {
   body {
@@ -23,13 +12,8 @@ h6{
 .container {
   position: relative;
   overflow: hidden;
-  border-radius: 5rem;
 }
-@media only screen and (max-width: 1000px) {
-  .container {
-    border-radius: 10px;
-  }
-}
+
 
 .slider {
 

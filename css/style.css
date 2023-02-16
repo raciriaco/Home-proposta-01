@@ -121,6 +121,11 @@ header{
 }
 .dropdown_menu.open{ /* comando de abrir open*/
     height: 240px;
+    z-index: 1;
+}@media(min-width:1200px){
+    .dropdown_menu.open{
+        height: 0;
+    }  
 }
 .dropdown_menu li{
     padding: 0.7rem;
