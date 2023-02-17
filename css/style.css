@@ -35,7 +35,7 @@ header{
 #logo-vaga{
     display: flex;
     width: 5px;
-    height: 50px;
+    height: 70px;
     max-width: 100%;
     -moz-transition: all 0.2s;
     -weblit-transition: all 0.2s;
@@ -50,8 +50,9 @@ header{
     background-color:#0E7C7B ;
     padding: 0 2rem;
     width:100% ;
+   
     border-radius: 7px;
-    height: 60px;
+    height: 90px;
     max-width: 2200px;
     margin: 0 auto;
     display: flex;
@@ -60,17 +61,23 @@ header{
 }
 
 .navbar .logo a{
-    font-size: 1.5rem; /*tamanho da  fonte*/
+    font-size: 2.5rem; /*tamanho da  fonte*/
     font-weight: bold; /* negrito*/
     
 }
 .navbar .links{
     display: flex; /*organizar o menu top*/
     gap: 2rem; /*afastamento*/
+    
+    
+}
+.navbar .links a{
+    font-size: 20px;
+    
 }
 .navbar .toggle_btn{
     color: #fff;
-    font-size: 1.5rem;
+    font-size: 2.1rem;
     cursor: pointer;
     display: none;
 }
