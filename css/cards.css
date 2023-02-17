@@ -43,12 +43,12 @@
   position: relative;
 }
 .card0 {
-  background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg")
+  background: url("/img/antonio-preto-branco.png")
     center center no-repeat;
   background-size: 300px;
 }
 .card0:hover {
-  background: url("https://i.pinimg.com/736x/8f/a0/51/8fa051251f5ac2d0b756027089fbffde--terry-o-neill-al-pacino.jpg")
+  background: url("/img/antonio-preto-branco.png")
     left center no-repeat;
   background-size: 600px;
 }
@@ -59,12 +59,12 @@
   opacity: 1;
 }
 .card1 {
-  background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg")
+  background: url("/img/antonio01.png")
     center center no-repeat;
   background-size: 300px;
 }
 .card1:hover {
-  background: url("https://i.pinimg.com/originals/28/d2/e6/28d2e684e7859a0dd17fbd0cea00f8a9.jpg")
+  background: url("/img/antonio01.png")
     left center no-repeat;
   background-size: 600px;
 }
@@ -75,12 +75,12 @@
   opacity: 1;
 }
 .card2 {
-  background: url("/img/antonio01.png")
+  background: url("/img/antonio05.png")
     center center no-repeat;
   background-size: 300px;
 }
 .card2:hover {
-  background: url("/img/antonio-preto-branco.png")
+  background: url("/img/antonio05.png")
     left center no-repeat;
   background-size: 600px;
 }
