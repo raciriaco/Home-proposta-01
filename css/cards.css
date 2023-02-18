@@ -97,11 +97,11 @@ h2 {
   opacity: 0;
   transition: opacity 1s;
 }
-.fab {
+.container-card .fab {
   opacity: 0;
   transition: opacity 1s;
 }
-.icons {
+.container-card .icons {
   position: absolute;
   fill: #fff;
   color: #fff;
@@ -127,7 +127,7 @@ h2 {
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
 }
-.icons a{
+.container-card.icons a{
     text-decoration: none; /*apaga a marca de link*/
     color: #fff;
     font-size: 1rem; /*tamanho da fonte*/

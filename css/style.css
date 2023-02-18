@@ -32,16 +32,16 @@ header{
    
 }
 /* logo imagem */
-#logo-vaga{
+.navbar .logo-vaga{
     display: flex;
-    width: 5px;
+    width: 80px;
     height: 70px;
+    margin-left: 0;
     max-width: 100%;
     -moz-transition: all 0.2s;
     -weblit-transition: all 0.2s;
     transition: all 0.3s;
-}
-#logo-vaga:hover{
+}.navbar .logo-vaga :hover{
     -moz-transform:  scale(1.1);
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -64,6 +64,13 @@ header{
     font-size: 2.5rem; /*tamanho da  fonte*/
     font-weight: bold; /* negrito*/
     
+}
+@media(max-width:520px){
+    .navbar .logo a{
+        font-size: 2rem; /*tamanho da  fonte*/
+        font-weight: bold; /* negrito*/
+        
+    }
 }
 .navbar .links{
     display: flex; /*organizar o menu top*/
