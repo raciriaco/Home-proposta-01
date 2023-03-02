@@ -1,6 +1,6 @@
 
 
-header {
+.headerr {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
@@ -11,14 +11,15 @@ header {
     -moz-background-size: cover;
     background-size: cover;
     -o-background-size: cover;
+    
 }
 
-header .intro-text {
+.headerr .intro-text {
     padding-top: 100px;
     padding-bottom: 50px;
 }
 
-header .intro-text .intro-lead-in {
+.headerr .intro-text .intro-lead-in {
     margin-bottom: 25px;
     font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 22px;
@@ -26,7 +27,7 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
 }
 
-header .intro-text .intro-heading {
+.headerr .intro-text .intro-heading {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -36,12 +37,12 @@ header .intro-text .intro-heading {
 }
 
 @media(min-width:768px) {
-    header .intro-text {
+    .headerr .intro-text {
         padding-top: 300px;
         padding-bottom: 200px;
     }
 
-    header .intro-text .intro-lead-in {
+    .headerr .intro-text .intro-lead-in {
         margin-bottom: 25px;
         font-family: "Droid Serif","Helvetica Neue",Helvetica,Arial,sans-serif;
         font-size: 35px;
@@ -49,7 +50,7 @@ header .intro-text .intro-heading {
         line-height: 40px;
     }
 
-    header .intro-text .intro-heading {
+    .headerr .intro-text .intro-heading {
         margin-bottom: 50px;
         text-transform: uppercase;
         font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
@@ -59,7 +60,7 @@ header .intro-text .intro-heading {
     }
 }
 @media(max-width:520px){
-    header .intro-text .intro-heading {
+    .headerr .intro-text .intro-heading {
         font-size: 37px; /*tamanho da  fonte*/
     
         
