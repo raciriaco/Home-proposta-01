@@ -231,6 +231,7 @@ h1, h2, h3, h4, h5, h6 {
     position: absolute;
     -webkit-animation: myfirst 15s linear infinite;
     animation: myfirst 15s linear infinite;
+    cursor: url(http://www.webcis.com.br/images/lupa-clientes.cur), default;
 }
 
 @-moz-keyframes myfirst {
