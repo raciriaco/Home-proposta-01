@@ -151,13 +151,13 @@ h1, h2, h3, h4, h5, h6 {
 .new_footer_top .footer_bg {
     position: absolute;
     bottom: 0;
-    background: url("/gif/rua.png") no-repeat scroll center 0;
+    background: url("../gif/rua.png") no-repeat scroll center 0;
     width: 100%;
     height: 266px;
 }
 /* carro */
 .new_footer_top .footer_bg .footer_bg_1 {
-    background: url("/gif/carro.gif") no-repeat center center;
+    background: url("../gif/carro.gif") no-repeat center center;
     width: 330px;
     height: 105px;
     z-index: 3;
@@ -170,7 +170,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* bike */
 .new_footer_top .footer_bg .footer_bg_2 {
-    background: url("/gif/bike.gif") no-repeat center center;
+    background: url("../gif/bike.gif") no-repeat center center;
     width: 95px;
     height: 120px;
   background-size:100%;
@@ -183,7 +183,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* bike menina */
 .new_footer_top .footer_bg .footer_bg_3 {
-    background: url("/gif/bike03.gif") no-repeat center center;
+    background: url("../gif/bike03.gif") no-repeat center center;
     width: 88px;
     height: 100px;
   background-size:100%;
@@ -196,7 +196,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* bike verde */
 .new_footer_top .footer_bg .footer_bg_5 {
-    background: url("/gif/bike02.gif") no-repeat center center;
+    background: url("../gif/bike02.gif") no-repeat center center;
     width: 118px;
     height: 90px;
   background-size:100%;
@@ -209,7 +209,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* PATINETE */
 .new_footer_top .footer_bg .footer_bg_6 {
-    background: url("/gif/patinete.gif") no-repeat center center;
+    background: url("../gif/patinete.gif") no-repeat center center;
     width: 95px;
     height: 120px;
   background-size:100%;
@@ -221,7 +221,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 /* bis */
 .new_footer_top .footer_bg .footer_bg_4 {
-    background: url("/gif/bis.gif") no-repeat center center;
+    background: url("../gif/bis.gif") no-repeat center center;
     width: 118px;
     height: 120px;
   background-size:100%;
