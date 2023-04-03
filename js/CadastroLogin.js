@@ -13,10 +13,11 @@ signInButton.addEventListener('click', () => {
 
 var email = document.getElementById("email");
 const senha = document.getElementById("senha");
-const placa = document.getElementById("placa");
-const nome = document.getElementById("nome");
+const placa = document.getElementById("placa").value;
 var cnpjCpf = document.getElementById("cnpjCpf");
+
 document.getElementById("botao1").disabled = false;
+
 
 function validateEmail(email) {
     var re = /\S+@\S+\.\S+/;
@@ -24,24 +25,31 @@ function validateEmail(email) {
   }
 
 function validateFormEmail() {
-
+  var criarbtn = document.getElementById("criarbtn");
     if (!validateEmail(email.value)) {
       alert("Insira um email válido");
+      criarbtn.disabled = true;
+      location.reload();
       return false;
+     
     }
     return true;
   }
 
-  function validatePassword(senha) {
-    var re = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{0,}$/;
-    return re.test(senha);
-}
+  //function validatePassword(senha) {
+    //var re = /^(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{0,}$/;
+    //return re.test(senha);
+//}
 
 function validateFormSenha(){
-  if (!validatePassword(senha.value)) {
-    alert("O campo senha deve conter no mínimo: 1 letra maiúscula, 1 minúscula e 1 número");
+  var criarbtn = document.getElementById("criarbtn");
+  if ((senha.value) == '') {
+    alert("O campo senha não pode estar vazio!");
+    criarbtn.disabled = true;
+      location.reload();
     return false;
   }
+
   return true;
 }
 
@@ -51,39 +59,29 @@ function validatePlate(placa) {
   }
 
  function validateFormPlaca(){
-    if (!validatePlate()) {
+  var criarbtn = document.getElementById("criarbtn");
+    if (!validatePlate(placa.value)) {
         alert("Insira uma placa de veículo válida");
+        criarbtn.disabled = true;
+        location.reload();
         return false;
         
       }
+      
       return true;
   }
-
-  function validateFormNome() {
-    const nomeInput = document.getElementById("nome");
-    const nome = nomeInput.value.trim();
-  
-    if (nome.length === 0) {
-      alert("O campo nome não pode estar vazio");
-      return false;
-    }
-  
-    const nomeRegex = /^[a-zA-Z]+$/;
-    if (!nomeRegex.test(nome)) {
-      alert("O campo nome só pode conter letras");
-      return false;
-    }
-  
-    return true;
-  }
-
  
         function validarCPF() {
           var cpf = document.getElementById("cpf").value;
+          var criarbtn = document.getElementById("criarbtn")
+          
           cpf = cpf.replace(/[^\d]+/g,''); // remove caracteres não numéricos
   
           if (cpf.length !== 11 || cpf.match(/(\d)\1{10}/)) {
             alert("CPF inválido");
+            criarbtn.disabled = true;
+        location.reload();
+
             return false;
           }
   
@@ -103,11 +101,13 @@ function validatePlate(placa) {
           var dv2 = (resto > 9) ? 0 : resto;
   
           // verifica se os dígitos verificadores estão corretos
+          
           if (cpf.charAt(9) != dv1 || cpf.charAt(10) != dv2) {
-            alert("CPF inválido");
+            alert("CPF inválidoo");
+            criarbtn.disabled = true;
+            location.reload();
             return false;
           }
-  
-          alert("CPF válido");
+
           return true;
         }
