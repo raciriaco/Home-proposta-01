@@ -1,9 +1,9 @@
 <?php
 session_start();
 
-$servername = "localhost:3306";
+$servername = "localhost";
 $username = "root";
-$password = "";
+$password = "root";
 $dbname = "db_tcc_estacionamento";
 
 

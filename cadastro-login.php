@@ -31,7 +31,7 @@ session_start();
           <input type="password" id="senha" name="senha" placeholder="Senha" />
           <input type="text" id="cpf" name="cpf" placeholder="CPF/CNPJ" />
           <input type="text" id="placa" name="placa" placeholder="Placa do veiculo" />
-         <button type="submit" onclick="validarCPF(),validateFormEmail(), validateFormSenha(), validateFormPlaca()" id="criarbtn" class="criarbot">Criar</button>
+         <button type="submit" onclick="validarCPF(),validateFormEmail(), validateFormSenha()" id="criarbtn" class="criarbot">Criar</button>
         </form>
         <?php if (isset($_SESSION["inserido_com_sucesso"]) && $_SESSION["inserido_com_sucesso"]): ?>
 		<h1>Dados cadastrados com sucesso!</h1>
