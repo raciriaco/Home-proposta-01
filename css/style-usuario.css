@@ -1,3 +1,7 @@
+*{
+    font-family: "Poppins"
+}
+
 body{
     margin: 0;
     font-family: "Poppins";
@@ -236,14 +240,34 @@ i.nav__icon{
 /*fim nav */
 
 /* INFO PERFIL */
-.form{
-    align-items:center;
-    display
 
-}
  .wrapper{
     display: grid;
     grid-column: 1;
-    width: 35%;
+    width: 80%;
     align-items:center;
  }
+
+ .container{
+    padding: 30px 5px 5px 5px;
+    width: 80%;
+ }
+
+
+ .label-info{
+    font-size: 18px;
+ }
+
+ .info-conta{
+    border: none;
+    border-bottom: 2px solid #bebebe;
+    padding-bottom: 5px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    outline: none;
+    align-items: end;
+    display: block;
+    font-size: 15px;
+    color: #353535;
+ }
+ 
