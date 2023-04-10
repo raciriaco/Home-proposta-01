@@ -248,9 +248,13 @@ i.nav__icon{
     align-items:center;
  }
 
- .container{
+ .form-info{
     padding: 30px 5px 5px 5px;
     width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
  }
 
 
@@ -271,3 +275,20 @@ i.nav__icon{
     color: #353535;
  }
  
+ .btn-class{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction:column;
+    
+ }
+
+.btn-config-advance{
+    font-size: 1em;
+    width: 25%;
+    padding: 0.5em;
+    background-color:#ffffff;
+    border-radius: 5px;
+    border: 2px solid #ABABAB;
+    margin-top: 30px;
+}
