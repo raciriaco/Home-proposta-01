@@ -319,10 +319,11 @@ i.nav__icon{
 /* VEICULOS */
 
 .section-veiculos{
-    display: flex;
+    display: grid;
     justify-content: space-around;
+    row-gap: 50px;
+    margin-top: 20px;
     
-   
     
 }
 
@@ -331,7 +332,16 @@ i.nav__icon{
     background-color: #dcf5da;
     border-radius: 30px;
     align-items: center;
+    grid-column:unset;
+    justify-items: center;
+  
+
 }
 .veiculos-patins{
-    width: 6%;
+ width: 15%;
 }
+
+.grid-container {
+    display: grid;
+    column-gap: 50px;
+  }
