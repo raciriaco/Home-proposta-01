@@ -149,7 +149,7 @@ h2{
 }
 
 .nav__link:hover{
-    color: rgb(171, 223, 240);
+    color: rgb(0, 134, 67);
 }
 
 i.nav__icon{
@@ -275,11 +275,13 @@ i.nav__icon{
     color: #353535;
  }
  
+
+ /*botão */
  .btn-class{
     align-items: center;
     justify-content: center;
     display:flex;
-    flex-direction:column;
+    flex-direction: column;
     
  }
 
@@ -291,4 +293,28 @@ i.nav__icon{
     border-radius: 5px;
     border: 2px solid #ABABAB;
     margin-top: 30px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: row;
+    color: inherit;
+    text-decoration: none;
 }
+.btn-config-advance:hover{
+    background-color: #FFCC49;
+    transition-duration: 0.4s;
+    transform: scale(1.1);
+
+}
+.icon-seta{
+    width: 10%;
+    
+}
+.icon-config{
+    width: 8%;
+    
+}
+
+/* VEICULOS */
+
