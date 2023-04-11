@@ -104,7 +104,7 @@ h2{
     top: 0;
     left: 0;
     width: 100%;
-    background-color: rgb(237, 197, 90);
+    background-color: #FFC857;
     z-index: 100;
     transition: 0,4s;
 }
@@ -320,14 +320,17 @@ i.nav__icon{
 
 .section-veiculos{
     display: flex;
+    justify-content: space-around;
+    
    
     
 }
 
 .veiculos{
-    width: 25%;
-    background-color: #93cf8d;
-    border-radius: 10%;
+    padding: 30px 30px 30px 30px;
+    background-color: #dcf5da;
+    border-radius: 30px;
+    align-items: center;
 }
 .veiculos-patins{
     width: 6%;
