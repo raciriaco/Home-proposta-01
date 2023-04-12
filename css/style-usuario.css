@@ -319,29 +319,26 @@ i.nav__icon{
 /* VEICULOS */
 
 .section-veiculos{
-    display: grid;
-    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    /*display: grid;
     row-gap: 50px;
-    margin-top: 20px;
-    
-    
+    */
 }
 
 .veiculos{
-    padding: 30px 30px 30px 30px;
-    background-color: #dcf5da;
-    border-radius: 30px;
-    align-items: center;
-    grid-column:unset;
-    justify-items: center;
+  background-color: #dcf5da;
+
+  display: grid;
+  margin-top: 20px;
+  justify-content: space-around;
+  padding: 30px;
+  float: left;
+  width: 50%;
   
-
-}
-.veiculos-patins{
- width: 15%;
 }
 
-.grid-container {
-    display: grid;
-    column-gap: 50px;
-  }
+
+
+
