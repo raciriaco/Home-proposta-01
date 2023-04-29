@@ -339,6 +339,18 @@ i.nav__icon{
   
 }
 
+#section-veiculos{
+   
+}
 
+#section-veiculos .section-carro{
+    
+}
 
-
+.btn-class{
+    align-items: center;
+    justify-content: center;
+    display:flex;
+    flex-direction: column;
+    
+ }
