@@ -317,21 +317,27 @@ i.nav__icon {
     */
 }
 .veiculos-container {
-  margin: 5%;
+  margin: 4%;
 }
 .veiculos {
-  background-color: #dcf5da;
+  background-color: #ffd874;
   padding: 50px;
   width: 100%;
+  border-radius: 30px;
+  transition: all .3s ease-in-out;
 }
 
-#section-veiculos {
+.veiculos:hover{
+
+  background-color: #ffcc49;
+  transition-duration: 0.4s;
+  transform: scale(1.1);
 }
 
-#section-veiculos .section-carro {
-}
 .col-3 {
-  margin: auto;
+  margin-left: 50px;
+  margin:auto;
+  display: flex;
   align-items: center;
   justify-content: center;
 }
@@ -341,4 +347,76 @@ i.nav__icon {
   justify-content: center;
   display: flex;
   flex-direction: column;
+}
+
+/*veiculos especificos*/
+
+.section-carro{
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-right: 15px;
+  
+}
+
+.btn-config-options-1{
+  font-size: 1em;
+  width: 10%;
+  padding: 1em;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 2px solid #ffcc49;
+  margin-top: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+.btn-config-options-2{
+  font-size: 1em;
+  width: 10%;
+  padding: 1em;
+  background-color: #ffcc49;
+  border-radius: 5px;
+  border: 2px solid #ababab;
+  margin-top: 30px;
+  margin-left: 30px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: space-around;
+  display: flex;
+  flex-direction: row;
+  color: inherit;
+  text-decoration: none;
+  text-align: center;
+  
+}
+
+.btn-options{
+  align-items:flex-end;
+  justify-content: center;
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+}
+.btn-config-options-1:hover {
+  background-color: #ffcc49;
+  border: 2px solid #ababab;
+  transition-duration: 0.4s;
+  transform: scale(1.1);
+}
+
+.btn-config-options-2:hover {
+  background-color: #ffffff;
+  border: 2px solid #ffcc49;
+  transition-duration: 0.4s;
+  transform: scale(1.1);
 }
